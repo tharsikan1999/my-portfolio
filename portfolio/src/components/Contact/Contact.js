@@ -8,7 +8,7 @@ const Contact = () => {
         Name: '',
         Email: '',
         Subject: '',
-        message: '',
+        Message: '',
       });
       
       const handleInputChange = (e) => {
@@ -16,27 +16,32 @@ const Contact = () => {
       };
 
       const handleSubmit = async (event) => {
-        event.preventDefault();
-        console.log(formValues)
-      
+        
         try {
-          const response = await axios.post(
-            'https://script.google.com/macros/s/AKfycbxqwdc7U1fLoPYApUuPH1mdjtfx2PojfmCA-XxYNnvc67kgE1cGMCaGa6wTrMHv3w1q/exec',
-            formValues
-          );
-      
-            console.log(response);
-            window.alert('Message sent successfully');
-        } catch (error) {
-          console.error(error);
+          event.preventDefault();
+          const { Name, Email, Subject, Message } = formValues;
+          const response = await axios.post('https://sheet.best/api/sheets/87fa8774-8f15-4e71-9a75-815eeaa6f958', {
+            Name,
+            Email,
+            Subject,
+            Message,
+          });
+          if (response.status === 200) {
+            alert('Your message has been sent successfully');
+          }
+          setFormValues({
+            Name: '',
+            Email: '',
+            Subject: '',
+            Message: '',
+          });
+
+          window.location.reload();
+
+        }catch (error) {
+          alert('Something went wrong, Please try again');
         }
-      
-        setFormValues({
-          Name: '',
-          Email: '',
-          Subject: '',
-          message: '',
-        });
+            
       };
       
    
@@ -108,8 +113,8 @@ const Contact = () => {
                           Your message
                         </label>
                         <textarea
-                          id="message"
-                          name="message"
+                          id="Message"
+                          name="Message"
                           placeholder="Your message *"
                           rows="4"
                           className="py-3 px-3 text-base w-full border border-black font-normal outline-none"
