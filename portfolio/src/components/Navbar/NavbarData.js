@@ -1,9 +1,10 @@
 //---- Start Nvabar Data -----
 export const NavbarData = [
     { name: "Home", link: "home" },
-    { name: "Services", link: "services" },
+    { name: "About", link: "about" },
+    { name: "Services", link: "Services" },
     { name: "Skills", link: "Skills" },
     { name: "PROJECTS", link: "Portfolio" },
-    { name: "Contact", link: "Contact" },
+    
 ]
 //----- End Navbar Data -----

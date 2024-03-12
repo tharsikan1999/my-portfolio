@@ -7,7 +7,7 @@ const About = () => {
     return (
         <React.Fragment>
             {/*----- Start About -----*/}
-            <section className="py-24">
+            <section className="py-24" id="about">
                 <div className="container">
                     <div className="grid lg:grid-cols-12 grid-cols-1 items-center">
                         <div className="lg:col-span-6 text-center mb-12 lg:mb-0 lg:ml-0 md:ml-12 sm:ml-o" >

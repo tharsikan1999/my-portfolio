@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import logo from '../../assets/Image/logo.png'
 import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
-import { NavbarData } from './NavbarData'
-import Scrollspy from "react-scrollspy"
+import Scrollspy from "react-scrollspy";
 
+// Corrected import statement
+import { NavbarData } from './NavbarData';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -36,10 +37,12 @@ const Navbar = () => {
                                     <Scrollspy items={NavbarData.map((e) => e.link)} currentClassName="active" className="list-none flex space-x-5 items-center">
                                         {
                                             NavbarData.map((e, key) => {
+                                                
                                                 return (
                                                     <li key={key}>
                                                         <a href={"#" + e.link} className="inline-block px-1.5 text-base font-medium uppercase leading-9 tracking-[2px] hover:text-orange-600">{e.name}</a>
                                                     </li>
+                                                    
                                                 )
                                             })
                                         }
@@ -72,4 +75,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;

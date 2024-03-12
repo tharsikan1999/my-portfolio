@@ -7,7 +7,7 @@ const LogoSlider = () => {
   return (
     <React.Fragment>
       {/*----- Start Cta -----*/}
-      <section className="py-10 bg-slate-900">
+      <section className="py-10 bg-slate-900" id='LogoSlider'>
         <div className="container">
           <div className="grid grid-cols-12 gap-5 items-center">
             <div className="col-span-12 lg:col-span-8 md:col-span-7 text-center md:text-left">

@@ -17,7 +17,7 @@ const Home = () => {
                                 </h1>
                                 <p className="text-base text-slate-700/80 md:text-xl mb-2 md:mb-4">Based in Homagama Colombo, Sri Lanka.</p>
                                 <div className="pt-3">
-                                    <a href="#Contact" className="btn btn-theme">Let's Start</a>
+                                    <a href="#LogoSlider" className="btn btn-theme">Discover More</a>
                                 </div>
                             </div>
                         </div>

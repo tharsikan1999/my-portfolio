@@ -14,7 +14,7 @@ export const NumberData = [
 export const BtnData = [
     {
         btn1: "Contact Me",
-        btn2: "Portfolio",
+        btn2: "Projects",
     },
 ]
 //---- Start Btn Data -----
