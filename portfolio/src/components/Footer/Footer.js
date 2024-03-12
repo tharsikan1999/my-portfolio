@@ -14,10 +14,10 @@ const Footer = () => {
                         <div className="col-span-12 md:col-span-6 flex pb-3 md:pb-0">
                             <div className="flex justify-center items-center md:justify-start w-full">
                                 
-                                <a href='https://www.facebook.com/tharsikan1999/' className="text-white text-opacity-90 hover:text-orange-600 mr-5 text-base cursor-pointer">{FooterData[0].icon}</a>
-                                <a href='https://github.com/tharsikan1999' className="text-white text-opacity-90 hover:text-orange-600 mr-5 text-base cursor-pointer">{FooterData[1].icon}</a>
-                                <a href='https://www.instagram.com/tharsikan_99/' className="text-white text-opacity-90 hover:text-orange-600 mr-5 text-base cursor-pointer">{FooterData[2].icon}</a>
-                                <a href='https://www.linkedin.com/in/tharsikan1999/' className="text-white text-opacity-90 hover:text-orange-600 mr-5 text-base cursor-pointer">{FooterData[3].icon}</a>
+                                <a href='https://www.facebook.com/tharsikan1999/' className="text-white text-opacity-90 hover:text-orange-600 mr-5 text-base cursor-pointer" target="_blank">{FooterData[0].icon}</a>
+                                <a href='https://github.com/tharsikan1999' className="text-white text-opacity-90 hover:text-orange-600 mr-5 text-base cursor-pointer" target="_blank">{FooterData[1].icon}</a>
+                                <a href='https://www.instagram.com/tharsikan_99/' className="text-white text-opacity-90 hover:text-orange-600 mr-5 text-base cursor-pointer" target="_blank">{FooterData[2].icon}</a>
+                                <a href='https://www.linkedin.com/in/tharsikan1999/' className="text-white text-opacity-90 hover:text-orange-600 mr-5 text-base cursor-pointer" target="_blank">{FooterData[3].icon}</a>
 
                                         
                             </div>
