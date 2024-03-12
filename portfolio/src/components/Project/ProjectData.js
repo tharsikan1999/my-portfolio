@@ -36,11 +36,11 @@ export const ProjectData = [
         Detail1:
                 "Utilizing HTML, CSS, JavaScript, PHP, CodeIgniter, and Bootstrap, I designed and implemented a system aimed at optimizing stock operations.",
         Detail2:
-                "The focus was on creating seamless interfaces to enhance user experience, and efficient backend processes were implemented to ensure smooth stock management.",
+                "The focus was on creating seamless interfaces to enhance user experience, and efficient backend processes were implemented to ensure smooth stock management.[username : admin, password : itum]",
         Type: "Website",
         Langages: "HTML, CSS, JavaScript, PHP, CodeIgniter, Bootstrap, MySQL",
         github: "https://github.com/tharsikan1999/Stock-Ledger",
-        URL: "www.example.com",
+        URL: "http://tharsikan.live/Stock-Ledger/",
     },
     {
         Heding: "Anon- Store E-commerce Website",
@@ -50,8 +50,8 @@ export const ProjectData = [
                 "The project showed off my skills in modern web development. I brought different technologies together to make a top-notch online shopping experience.",
         Type: "Website",
         Langages: "React.js, Css, JavaScript",
-        github: "https://github.com/tharsikan1999/React-Projects",
-        URL: "www.example.com",
+        github: "https://github.com/tharsikan1999/Anon-Strore",
+        URL: "https://main--tharsikan.netlify.app",
     },
     
     {
@@ -63,7 +63,7 @@ export const ProjectData = [
         Type: "Website",
         Langages: "HTML, CSS, JavaScript",
         github: "https://github.com/tharsikan1999/Html-Css-JavaScript",
-        URL: "www.example.com",
+        URL: "http://tharsikan.live/Online-Store/",
     },
 ]
 

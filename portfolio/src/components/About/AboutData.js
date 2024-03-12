@@ -1,7 +1,7 @@
 //---- Start Number Data -----
 export const NumberData = [
     {
-        Number: "12+",
+        Number: "9+",
         Detail: "Projet Completed",
     },
     {
