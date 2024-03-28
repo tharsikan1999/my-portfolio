@@ -2,6 +2,7 @@ import { DiDocker, DiLinux } from "react-icons/di";
 import { BsWordpress } from "react-icons/bs";
 import { FaAws, FaJenkins, FaFigma, FaGithub } from "react-icons/fa";
 import { SiKubernetes } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa6";
 
 export const Technologies = [
     {
@@ -35,9 +36,9 @@ export const Technologies = [
         Heding: "Figma",
     },
     {
-        Bg_color: "bg-[#9CA1A5]",
-        Logo: <FaGithub />,
-        Heding: "GitHub",
+        Bg_color: "bg-[#EDD400]",
+        Logo: <FaGitAlt />,
+        Heding: "Git",
     },
     {
         Bg_color: "bg-[#47C0D0]",
